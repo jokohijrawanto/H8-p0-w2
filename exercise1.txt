@@ -1,0 +1,93 @@
+/**1.Newton Second Law
+
+Algoritma
+
+1.   masukkan nilai m="Massa benda" dengan nilai 600.
+2.   masukkan nilai a="Percepatan benda" dengan nilai 2.
+3.   masukkan  nilai ΣF="Resultan gaya" tanpa diberikan nilai. Ini akan di isi nanti.
+4.   Hitung hasil perkalian "Massa benda" dengan Percepatan benda".
+5.   Setelah dapat hasil perhitungan, isi hasil hitung ke dalam "Resultan gaya".
+6.   Tampilkan nilai dari  ΣF="Resultan gaya".
+
+Pseudocode
+
+STORE "Massa benda" with 600
+STORE "Percepatan benda" with 2
+STORE "Resultan gaya" without any value
+CALCULATE "Massa benda" times "Percepatan benda"
+SET "Resultan gaya" value with calculation result
+DISPLAY "Resultan gaya"
+*/
+
+/**2.Tahun kabisat
+
+Algoritma
+
+1. Masukkan nilai="Tahun" dengan nilai berapapun.
+2. Jika "Tahun" habis dibagi 4 DAN "Tahun" tidak habis dibagi 100, Tampilkan "Tahun
+Kabisat". atau,
+3. Jika "Tahun" habis dibagi 4 DAN "Tahun" habis dibagi 100 DAN "Tahun" habis
+dibagi 400, Tampilkan "Tahun Kabisat". Jika tidak,Tampilkan "Bukan Tahun Kabisat".
+
+Pseudocode
+
+STORE "Tahun" with any value
+IF ("Tahun" %4=0) && ("Tahun" %100 != 0)
+      DISPLAY "Tahun Kabisat"
+ELSE IF ("Tahun" %4 = 0) && ("Tahun" %100 = 0) && ("Tahun" %400 = 0)
+      DISPLAY "Tahun Kabisat"
+ELSE
+      DISPLAY "Bukan Tahun Kabisat"
+*/
+
+/**3.Laundry Day 
+
+Algoritma
+
+1. Masukkan jumlah "Pakaian" dengan nilai 0.
+2. Tampilkan jumlah "Pakaian"
+3. Tambah "Pakaian" dengan 1, agar semakin mendekat ke batas perulangan, kembali ke
+   langkah 2.
+4. ulangi langkah 2 selama "Pakaian" masih dibawah atau sama dengan 20. Jika "Pakaian"
+   sudah 20, lanjut ke laUlngkah 5.
+5. Nyalakan mesin cuci.
+
+Pseudocode
+
+STORE "Pakaian" with 0
+WHILE "BAJU" <= 20
+DISPLAY "Pakaian"
+CALCULATE "Pakaian" plus 1
+DO "Nyalakan mesin cuci"
+
+*/
+
+/**4.Periksa Kuku
+
+Algoritma
+
+
+1. Masukkan jumlah "siswa" dengan nilai = 40.
+2. periksa siswa berdasarkan urutan dari depan ke belakang 
+3. jika ada siswa dengan kuku panjang maka siswa akan dihukum!; jika tidak, dipuji!
+4. ulang langkah 2 dan 3 sampai nilai 40
+
+
+
+Pseudocode
+
+STORE "Siswa" with 0
+
+
+WHILE "Siswa" = 40
+CALCULATE "Siswa" plus 1
+IF "" equals to "Kuku panjang"
+DO "Hukum siswa tersebut"
+ELSE
+DO "Puji siswa tersebut"
+
+*/
+
+
+
+
