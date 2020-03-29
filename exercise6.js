@@ -17,7 +17,7 @@ while (i>=2)
 }
 */
 
-/*
+/*2. Melakukan Looping Menggunakan For
 looping pertama
 for(let i = 0; i <= 20; i++){
     console.log(i + '  -'+" I love coding");
