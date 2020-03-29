@@ -1,0 +1,24 @@
+function xo(str) {
+  
+  var tX=0;
+  var tO=0;
+  for (var x = 0; x <str.length; x++){
+    if(str[x] === 'x'){
+      tX ++;
+    } else if (str[x] === 'o'){
+      tO ++;
+    }
+  }
+  if (tX === tO){
+    return true;
+    } else {
+      return false;
+    }
+}
+
+
+console.log(xo('xoxoxo')); 
+console.log(xo('oxooxo')); 
+console.log(xo('oxo')); 
+console.log(xo('xxxooo')); 
+console.log(xo('xoxooxxo')); 
